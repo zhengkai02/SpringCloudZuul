@@ -1,0 +1,12 @@
+server:
+  port: 9043
+spring:
+  application:
+    name: dashboard-ribbon
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9040/eureka/
+  instance:
+    prefer-ip-address: true
+
